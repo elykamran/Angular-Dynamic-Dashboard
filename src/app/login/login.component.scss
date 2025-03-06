@@ -1,0 +1,67 @@
+:host {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.mat-mdc-form-field {
+    width: 100%;
+    min-width: 300px;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
+mat-card-header,
+mat-card-title,
+mat-icon,
+mat-card-content {
+    display: flex;
+    justify-content: center;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
+mat-card {
+    min-width: 500px;
+}
+
+mat-icon {
+    color: lightgray;
+    font-size: 60px !important;
+    width: 100%;
+    min-width: 300px;
+    padding-bottom: 50px;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
+mat-icon,
+mat-card-title {
+    font-size: 30px;
+    line-height: 70px;
+    display: flex;
+    justify-content: center;
+    color: #3f51b5;
+}
+
+.error {
+    padding: 16px;
+    width: 300px;
+    color: white;
+    background-color: red;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-row-message {
+    margin:10px;
+    padding:10px;
+    display: grid;
+    width: 100%;
+    background-color: rgb(243, 224, 224);
+    align-content: left;
+    justify-content: center;
+    line-height: 40px;
+    font: 20px;
+    color: rgb(68, 66, 66);
+  }
