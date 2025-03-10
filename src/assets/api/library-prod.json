@@ -1,0 +1,502 @@
+[
+  {
+    "componentType": "PckLineComponent",
+    "title": "Line",
+    "subtitle": "Product line description",
+    "description": "Select this tool to display a virtual package/assembly line. Define the line leader and other info.",
+    "icon": "../../assets/images/belt.png",
+    "instanceId": -1,
+    "tags": [],
+    "propertyPages": [
+      {
+        "displayName": "Configuration",
+        "groupId": "config",
+        "position": 10,
+        "properties": [
+          {
+            "controlType": "textbox",
+            "key": "title",
+            "label": "Title",
+            "value": "Line #",
+            "required": true,
+            "order": 1
+          },
+          {
+            "controlType": "textbox",
+            "key": "subtitle",
+            "label": "Subtitle",
+            "value": "Product line description",
+            "required": false,
+            "order": 1
+          },
+          {
+            "controlType": "dropdown-ms",
+            "key": "lead",
+            "label": "Lead",
+            "required": true,
+            "order": 1,
+            "options": []
+          },
+          {
+            "controlType": "dropdown",
+            "key": "driver",
+            "label": "Driver",
+            "required": true,
+            "order": 1,
+            "options": []
+          },
+          {
+            "controlType": "number",
+            "key": "mcount",
+            "label": "Material Handler Count",
+            "required": true,
+            "order": 1,
+            "value": 0
+          },
+          {
+            "controlType": "number",
+            "key": "pcount",
+            "label": "Personell Count",
+            "required": true,
+            "order": 1,
+            "value": 0
+          },
+          {
+            "controlType": "dropdown",
+            "key": "lunch",
+            "label": "Lunch",
+            "required": true,
+            "order": 1,
+            "options": []
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "add"
+      }
+    ]
+  },
+  {
+    "componentType": "DateComponent",
+    "title": "Production Date Tool",
+    "subtitle": "Production Date",
+    "description": "Select this tool to add a Date",
+    "icon": "../../assets/images/calendar_month.png",
+    "instanceId": -1,
+    "tags": [],
+    "propertyPages": [
+      {
+        "displayName": "Configuration",
+        "groupId": "config",
+        "position": 10,
+        "properties": [
+          {
+            "controlType": "textbox",
+            "key": "title",
+            "label": "Production Date",
+            "value": "Production Date",
+            "required": true,
+            "order": 1
+          },
+          {
+            "controlType": "textbox",
+            "key": "subtitle",
+            "label": "Subtitle",
+            "value": "Production Date",
+            "required": false,
+            "order": 1
+          },
+          {
+            "controlType": "date",
+            "key": "productiondate",
+            "label": "Choose a Date",
+            "value": "",
+            "required": true,
+            "order": 1
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "add"
+      }
+    ]
+  },
+  {
+    "componentType": "NotificationComponent",
+    "title": "Notification",
+    "subtitle": "",
+    "description": "Select this tool to add general notifications",
+    "icon": "../../assets/images/notification.png",
+    "instanceId": -1,
+    "tags": [],
+    "propertyPages": [
+      {
+        "displayName": "Configuration",
+        "groupId": "config",
+        "position": 10,
+        "properties": [
+          {
+            "controlType": "textbox",
+            "key": "title",
+            "label": "Notification",
+            "value": "Notification",
+            "required": true,
+            "order": 1
+          },
+          {
+            "controlType": "textbox",
+            "key": "subtitle",
+            "label": "Subtitle",
+            "value": "Notification",
+            "required": false,
+            "order": 1
+          },
+          {
+            "controlType": "textarea",
+            "key": "notification",
+            "label": "Notification Text",
+            "value": "<span style=\"color: red;font weight:bold; font-size:40px\">Text 1</span><br><br><span style=\"color: blue;font weight:bold; font-size:20px\">Text 2</span>",
+            "required": true,
+            "order": 1
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "add"
+      }
+    ]
+  },
+  {
+    "componentType": "UsergroupComponent",
+    "title": "Team Members",
+    "subtitle": "",
+    "description": "Select this tool to display users",
+    "icon": "../../assets/images/usergroup.png",
+    "instanceId": -1,
+    "tags": [],
+    "propertyPages": [
+      {
+        "displayName": "Configuration",
+        "groupId": "config",
+        "position": 10,
+        "properties": [
+          {
+            "controlType": "textbox",
+            "key": "title",
+            "label": "Title",
+            "value": "User Group",
+            "required": true,
+            "order": 1
+          },
+          {
+            "controlType": "textbox",
+            "key": "subtitle",
+            "label": "Subtitle",
+            "value": "",
+            "required": false,
+            "order": 1
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "add"
+      }
+    ]
+  },
+  {
+    "componentType": "EventsComponent",
+    "title": "Events",
+    "subtitle": "",
+    "description": "Select this tool to display events",
+    "icon": "../../assets/images/lunch.png",
+    "instanceId": -1,
+    "tags": [],
+    "propertyPages": [
+      {
+        "displayName": "Configuration",
+        "groupId": "config",
+        "position": 10,
+        "properties": [
+          {
+            "controlType": "textbox",
+            "key": "title",
+            "label": "Title",
+            "value": "Events",
+            "required": true,
+            "order": 1
+          },
+          {
+            "controlType": "textbox",
+            "key": "subtitle",
+            "label": "Subtitle",
+            "value": "",
+            "required": false,
+            "order": 1
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "add"
+      }
+    ]
+  },
+  {
+    "componentType": "ImageComponent",
+    "title": "Image Gallery",
+    "description": "Select this tool to add an image gallery for the production line board.",
+    "subtitle": "Image Gallery Subtitle",
+    "icon": "../../assets/images/imageGallery.png",
+    "instanceId": -1,
+    "tags": [],
+    "propertyPages": [
+      {
+        "displayName": "Configuration",
+        "groupId": "config",
+        "position": 11,
+        "properties": [
+          {
+            "controlType": "textbox",
+            "key": "title",
+            "label": "Title",
+            "value": "Image Gallery",
+            "required": true,
+            "order": 1
+          },
+          {
+            "controlType": "textbox",
+            "key": "subtitle",
+            "label": "Subtitle",
+            "value": "SImage Gallery Subtitle",
+            "required": false,
+            "order": 1
+          }
+        ]
+      },
+      {
+        "displayName": "Upload",
+        "groupId": "config",
+        "position": 11,
+        "properties": [
+          {
+            "controlType": "upload",
+            "key": "file-list",
+            "label": "Title",
+            "value": "",
+            "required": true,
+            "order": 2
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "add"
+      }
+    ]
+  },
+  {
+    "componentType": "ProductComponent",
+    "title": "Product Component Tool",
+    "subtitle": "Product component subtitle",
+    "description": "Select this tool to define and add a Product definition to the production line board.",
+    "icon": "../../assets/images/product.png",
+    "instanceId": -1,
+    "tags": [],
+    "propertyPages": [
+      {
+        "displayName": "Configuration",
+        "groupId": "config",
+        "position": 10,
+        "properties": [
+          {
+            "controlType": "textbox",
+            "key": "title",
+            "label": "Title",
+            "value": "Property Components",
+            "required": true,
+            "order": 1
+          },
+          {
+            "controlType": "textbox",
+            "key": "subtitle",
+            "label": "Subtitle",
+            "value": "Product component subtitle",
+            "required": false,
+            "order": 1
+          }
+        ]
+      },
+      {
+        "displayName": "Components",
+        "groupId": "config",
+        "position": 11,
+        "properties": [
+          {
+            "controlType": "table",
+            "key": "table",
+            "label": "Title",
+            "value": "Table Data",
+            "required": false,
+            "order": 1
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "add"
+      }
+    ]
+  },
+  {
+    "componentType": "ScoreCardComponent",
+    "title": "Product Score Card Tool",
+    "subtitle": "Score card subtitle",
+    "description": "Record results for the production line for the period of time indicated in the card.",
+    "icon": "../../assets/images/count.jpg",
+    "instanceId": -1,
+    "tags": [],
+    "propertyPages": [
+      {
+        "displayName": "Configuration",
+        "groupId": "config",
+        "position": 10,
+        "properties": [
+          {
+            "controlType": "textbox",
+            "key": "title",
+            "label": "Title",
+            "value": "Product Score Card Tool",
+            "required": true,
+            "order": 1
+          },
+          {
+            "controlType": "textbox",
+            "key": "subtitle",
+            "label": "Subtitle",
+            "value": "Score card subtitle",
+            "required": true,
+            "order": 1
+          },
+          {
+            "controlType": "textbox",
+            "key": "team-lead",
+            "label": "Team Lead",
+            "value": "",
+            "required": true,
+            "order": 1
+          },
+          {
+            "controlType": "number",
+            "key": "job-number",
+            "label": "Job Number",
+            "value": 0,
+            "required": true,
+            "order": 1
+          },
+          {
+            "controlType": "date",
+            "key": "date",
+            "label": "Date",
+            "value": "",
+            "required": true,
+            "order": 1
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "add"
+      }
+    ]
+  },
+  {
+    "componentType": "BarChartComponent",
+    "title": "Bar Chart Component Component Tool",
+    "subtitle": "Bar chart tool subtitle",
+    "description": "Select this tool to define and add a Product definition to the production line board.",
+    "icon": "../../assets/images/bar-chart.png",
+    "instanceId": -1,
+    "tags": [],
+    "propertyPages": [
+      {
+        "displayName": "Configuration",
+        "groupId": "config",
+        "position": 10,
+        "properties": [
+          {
+            "controlType": "textbox",
+            "key": "title",
+            "label": "Title",
+            "value": "Property Components",
+            "required": true,
+            "order": 1
+          },
+          {
+            "controlType": "textbox",
+            "key": "subtitle",
+            "label": "Subtitle",
+            "value": "Product component subtitle",
+            "required": false,
+            "order": 1
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "add"
+      }
+    ]
+  },
+  {
+    "componentType": "AreaChartComponent",
+    "title": "Area Chart Component Component Tool",
+    "subtitle": "Area chart tool subtitle",
+    "description": "Select this tool to define and add a Product definition to the production line board.",
+    "icon": "../../assets/images/trend.png",
+    "instanceId": -1,
+    "tags": [],
+    "propertyPages": [
+      {
+        "displayName": "Configuration",
+        "groupId": "config",
+        "position": 10,
+        "properties": [
+          {
+            "controlType": "textbox",
+            "key": "title",
+            "label": "Title",
+            "value": "Property Components",
+            "required": true,
+            "order": 1
+          },
+          {
+            "controlType": "textbox",
+            "key": "subtitle",
+            "label": "Subtitle",
+            "value": "Product component subtitle",
+            "required": false,
+            "order": 1
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "add"
+      }
+    ]
+  }
+]
