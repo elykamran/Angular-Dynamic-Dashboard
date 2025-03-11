@@ -1,0 +1,14 @@
+.more-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
+mat-card-title {
+    color: #3f51b5;
+}
+
+.move-cursor {
+    cursor: move;
+}
